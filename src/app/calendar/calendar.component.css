@@ -1,0 +1,30 @@
+.tables{
+	height: 100%;
+	background-color: #121111;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 150px;
+	width: 100%;
+}
+.table{
+	display: flex;
+	padding-top: 50px;
+}
+.as{
+	width: 150px;
+	height: 100px;
+	background-color: #483131;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.as:hover{
+	background-color: #9E5252;
+}
+.tables p{
+	margin-top: 30px;
+}

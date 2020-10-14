@@ -1,0 +1,135 @@
+.table-main{
+	width: 100%;
+	height: 300px;
+	background-image: url('/assets/img/about-bread.jpg');
+	background-position: center;
+}
+.table-main{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	color: white;
+}
+.levels{
+	background-color: black;
+	height: 100%;
+}
+.first-text{
+	text-transform: uppercase;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	padding: 50px 0;
+}
+.row h2{
+	color: white;
+	font-size: 25px;
+}
+.row p{
+	color:white;
+}
+.col{
+	height: 380px;
+}
+.level1{
+	background-image: url('/assets/img/classes/class-1.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.level2{
+	background-image: url('/assets/img/classes/class-2.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.level3{
+	background-image: url('/assets/img/classes/class-3.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.level4{
+	background-image: url('/assets/img/classes/class-4.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.level-text{
+	width: 230px;
+	height: 200px;
+	font-size: 1.2em;	
+}
+.level-text button{
+	margin-top: 50px;
+	background: #9D1111;
+	padding: 10px 30px;
+	outline: none;
+	border: 2px solid #9D1111;
+	text-transform: uppercase;
+	transition: 0.25s;
+}
+.level-text button:hover{
+	color: white;
+	background: #6D0808;
+	border: 2px solid #6D0808;
+}
+
+.price-div{
+	width: 100%;
+	height: 800px;
+	background-image: url('/assets/img/price-bg.jpg');
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.price-section{
+	display: flex;
+	justify-content: center;
+	width: 1300px;
+	text-align: center;
+	padding-top: 50px;
+	flex-direction: column;
+}
+.prices{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	color: black;
+}
+.price{
+	background: white;
+	width: 350px;
+	height: 500px;
+	margin-right: 50px;
+	
+	padding-top: 50px;
+}
+.price h2{
+	font-size: 30px;
+	font-family: 'News Cycle', sans-serif;
+}
+.price h3{
+	font-size: 60px;
+	font-family: 'Staatliches', cursive;
+}
+.price p{
+	padding-bottom: 30px;
+}
+.price-div button{
+	background: #9D1111;
+	padding: 10px 30px;
+	outline: none;
+	border: 2px solid #9D1111;
+	text-transform: uppercase;
+	transition: 0.25s;
+	margin-top: 30px;
+}
+.price-div button:hover{
+	color: white;
+	background: #6D0808;
+	border: 2px solid #6D0808;
+}

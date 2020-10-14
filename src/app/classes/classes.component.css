@@ -1,0 +1,67 @@
+.classes{
+	height: 100%;
+	color: white;
+}
+button,
+button:active,
+button:focus {
+outline: none !important;
+}
+
+.class1{
+	background-image: url('/assets/img/feature/feature-1.jpg');
+	height: 330px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.class2{
+	background-image: url('/assets/img/feature/feature-2.jpg');
+	height: 330px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.class3{
+	background-image: url('/assets/img/feature/feature-3.jpg');
+	height: 330px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.classes button{
+	background-color: #DA7832;
+	color: white;
+	padding: 10px 50px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 23px;
+	text-transform: uppercase;
+	border: 2px solid #DA7832;
+	border-radius: 25px;
+	margin-top: 30px;
+}
+.classes button:hover{
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+	border: 2px solid black;
+}
+.cross{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: black;
+	color: #424242;
+}
+.cross img{
+	margin-left: 100px;
+}
+.pop{
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}

@@ -1,0 +1,94 @@
+header{
+	width: 100%;
+	background-color: black;
+	padding-top: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	color: #D6D6D6;
+	font-family: Roboto;
+	text-decoration: none;
+	height: 100px;
+	width: 100%
+}
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	font-size: 1.3em;
+}
+.navbar ul li{
+	padding-left: 70px;
+}
+.navbar a:hover {
+    text-decoration: underline; 
+    color: white;
+    transition: 0.2s;
+} 
+.navbar a:visited { 
+	text-decoration: none;
+	color: #D6D6D6;
+} 
+.contact{
+ 	background-color: black;
+ 	display: flex;	
+}
+.contact-text{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	padding:0 200px;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box input{
+	margin-bottom: 20px;
+}
+.box input[type = "text"]{
+	border:0;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type = "text"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+	background:#2ecc71; 
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+footer{
+	
+}

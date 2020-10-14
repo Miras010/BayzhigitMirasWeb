@@ -1,0 +1,118 @@
+<div class="table-main">
+	<h1>Schedule & classes</h1>
+</div>
+<div class="levels">
+	<h2 class="first-text">Choose your level</h2>
+	<div class="row">
+		<div class="col level1">
+			<div class="level-text">
+				<h2>Crossfit level 1</h2>
+				<p>Sufferers around the globe will be happy to hear that there are sleep apnea remedies</p>
+				<button>Choose</button>
+			</div>
+		</div>
+		<div class="col level2">
+			<div class="level-text">
+				<h2>Crossfit level 1</h2>
+				<p>Sufferers around the globe will be happy to hear that there are sleep apnea remedies</p>
+				<button>Choose</button>
+			</div>
+		</div>
+		<div class="col level3">
+			<div class="level-text">
+				<h2>Crossfit level 1</h2>
+				<p>Sufferers around the globe will be happy to hear that there are sleep apnea remedies</p>
+				<button>Choose</button>
+			</div>
+		</div>
+		<div class="col level4">
+			<div class="level-text">
+				<h2>Crossfit level 1</h2>
+				<p>Sufferers around the globe will be happy to hear that there are sleep apnea remedies</p>
+				<button>Choose</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<app-calendar></app-calendar>
+
+<div class="price-div">
+	<div class="price-section">
+		<div class="price-text">
+			<h1>CHOOSE YOUR PRICING PLAN</h1>
+			<p>These reports started to surface when Congress was having hearings about the
+			painkiller, Vioxx. A Food and Drug Administration staff member.</p>
+			<button (click)="showPrice = !showPrice">MONTHLY / YEARS</button>
+		</div>
+
+		<div *ngIf ="showPrice" class="prices">
+			<div class="price price1">
+				<h2>NORMAL</h2>
+				<h3>$ 3000</h3>
+				<p>MONTHLY</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>1 Free personal training</p>
+				<button>Choose</button>
+			</div>
+			<div class="price price2">
+				<h2>PROFESSIONAL</h2>
+				<h3>$ 500</h3>
+				<p>MONTHLY</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>2 Free personal training</p>
+				<button>Choose</button>
+			</div>
+			<div class="price price3">
+				<h2>ADVANCED</h2>
+				<h3>$ 900</h3>
+				<p>MONTHLY</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>5 Free personal training</p>
+				<button>Choose</button>
+			</div>
+		</div>
+
+				<div *ngIf ="showPrice == false" class="prices">
+			<div class="price price1">
+				<h2>NORMAL</h2>
+				<h3>$ 55</h3>
+				<p>YEARS</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>1 Free personal training</p>
+				<button>Choose</button>
+			</div>
+			<div class="price price2">
+				<h2>PROFESSIONAL</h2>
+				<h3>$ 95</h3>
+				<p>YEARS</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>2 Free personal training</p>
+				<button>Choose</button>
+			</div>
+			<div class="price price3">
+				<h2>ADVANCED</h2>
+				<h3>$ 165</h3>
+				<p>YEARS</p>
+				<p>Unlimited access to the gym</p>
+				<p>1 classes per week</p>
+				<p>FREE drinking package</p>
+				<p>5 Free personal training</p>
+				<button>Choose</button>
+			</div>
+		</div>
+
+
+	</div>
+</div>
